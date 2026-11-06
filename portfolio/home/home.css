@@ -7,6 +7,9 @@ body[data-page="home"] {
   --home-line: #203348;
   --home-cyan: #10e5ed;
   --home-violet: #8d5cff;
+  --home-pink: #ff6b9d;
+  --home-amber: #ffc857;
+  --home-blue: #69a8ff;
   background: var(--home-bg);
   color: var(--home-text);
 }
@@ -188,6 +191,24 @@ body[data-page="home"] .home-social-links .social-link {
   color: var(--home-cyan);
   font-size: 15px;
   transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+body[data-page="home"] .home-social-links .social-link:nth-child(2) {
+  border-color: rgb(105 168 255 / 75%);
+  background: rgb(105 168 255 / 6%);
+  color: var(--home-blue);
+}
+
+body[data-page="home"] .home-social-links .social-link:nth-child(3) {
+  border-color: rgb(255 107 157 / 75%);
+  background: rgb(255 107 157 / 6%);
+  color: var(--home-pink);
+}
+
+body[data-page="home"] .home-social-links .social-link:nth-child(4) {
+  border-color: rgb(255 200 87 / 75%);
+  background: rgb(255 200 87 / 6%);
+  color: var(--home-amber);
 }
 
 body[data-page="home"] .home-social-links .social-link:hover,
@@ -472,6 +493,31 @@ body[data-page="home"] .home-card-icon {
   background: rgb(16 229 237 / 7%);
   color: var(--home-cyan);
   font: 600 14px var(--mono);
+}
+
+body[data-page="home"] .home-service-card:nth-child(2) .home-card-icon,
+body[data-page="home"] .home-project-card:nth-child(2) {
+  border-color: rgb(105 168 255 / 55%);
+}
+
+body[data-page="home"] .home-service-card:nth-child(2) .home-card-icon {
+  background: rgb(105 168 255 / 8%);
+  color: var(--home-blue);
+}
+
+body[data-page="home"] .home-service-card:nth-child(3) .home-card-icon,
+body[data-page="home"] .home-project-card:nth-child(3) {
+  border-color: rgb(255 107 157 / 55%);
+}
+
+body[data-page="home"] .home-service-card:nth-child(3) .home-card-icon {
+  border-color: rgb(255 107 157 / 45%);
+  background: rgb(255 107 157 / 8%);
+  color: var(--home-pink);
+}
+
+body[data-page="home"] .home-project-card:nth-child(4) {
+  border-color: rgb(255 200 87 / 55%);
 }
 
 body[data-page="home"] .home-service-card > small {
@@ -847,6 +893,9 @@ body[data-theme="light"][data-page="home"] {
   --home-line: #dbe3ec;
   --home-cyan: #087f99;
   --home-violet: #7052ca;
+  --home-pink: #bd3567;
+  --home-amber: #976000;
+  --home-blue: #2365bd;
   background: var(--home-bg);
   color: var(--home-text);
 }

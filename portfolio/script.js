@@ -1,6 +1,6 @@
 const socialProfiles = [
   { label: 'GitHub', href: 'https://github.com/sujankhaireni789-sketch', icon: 'fa-brands fa-github', external: true },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/girisujan2064/', icon: 'fa-brands fa-linkedin-in', external: true },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sujan-giri-42713129b/connect', icon: 'fa-brands fa-linkedin-in', external: true },
   { label: 'TikTok', href: 'https://www.tiktok.com/@sujangiri3633', icon: 'fa-brands fa-tiktok', external: true },
   { label: 'Email', href: 'mailto:girisujan2064@gmail.com', icon: 'fa-solid fa-envelope', external: false },
 ];
